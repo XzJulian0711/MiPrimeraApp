@@ -10,11 +10,24 @@
         android:id="@+id/txt.Bienvenida"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/txtBienvenida"
+        android:gravity="clip_horizontal|center|top"
+        android:text="@string/txtBienvenidos"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.391"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="802dp"
+        android:layout_height="304dp"
+        android:contentDescription="@string/Descripcion_img"
+        app:srcCompat="@drawable/yin_1751104"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-205dp"
+        tools:layout_editor_absoluteY="171dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
