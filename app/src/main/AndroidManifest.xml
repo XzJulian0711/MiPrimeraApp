@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/icono_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MiPrimeraApp"
+        android:theme="@style/Theme.ZonaHumedal"
         tools:targetApi="29">
         <activity
             android:name=".MainActivity"

@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">MiPrimeraApp</string>
+    <string name="app_name" translatable="false">ZonaHumedal</string>
     <string name="txtBienvenida">Bievenido</string>
-    <string name="txtBienvenidos">Hola Bienvenido a mi App</string>
-    <string name="Descripcion_img">Hay una imagen de el yin y el yan</string>
+    <string name="Bienvenidadtxt">Bienvenido a Zona Humedal</string>
 </resources>

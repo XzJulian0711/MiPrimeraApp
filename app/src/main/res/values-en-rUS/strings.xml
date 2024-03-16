@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MiPrimeraApp</string>
+    <string name="app_name">WetlandArea</string>
     <string name="txtBienvenida">Welcome</string>
-    <string name="txtBienvenidos">Hi Welcome to my  App</string>
-    <string name="Descripcion_img">There is a picture of yin and yang</string>
+    <string name="Bienvenidadtxt">" Welcome to wetland area"</string>
 </resources>
