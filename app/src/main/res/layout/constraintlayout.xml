@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/boton_Continuar"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color">
 
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/text_InicioSesion"
         android:layout_width="266dp"
         android:layout_height="161dp"
         android:gravity="center"
@@ -14,14 +16,15 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="@color/black"
         tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="193dp" />
+        tools:layout_editor_absoluteY="188dp" />
 
     <Button
-        android:id="@+id/txt.Continuar"
+        android:id="@+id/Boton.Continuar"
         android:layout_width="212dp"
         android:layout_height="89dp"
+        android:backgroundTint="#000000"
         android:text="Continuar"
         tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="512dp" />
+        tools:layout_editor_absoluteY="407dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

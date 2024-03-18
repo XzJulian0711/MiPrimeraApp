@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/design_default_color_primary_variant"
-    android:backgroundTint="#4CAF50"
+    android:background="@drawable/bg_color"
+
     tools:context=".MainActivity">
 
     <TextView
@@ -17,22 +17,22 @@
         android:gravity="center"
         android:text="@string/Bienvenidadtxt"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:textColor="@color/black" />
+        android:textColor="@color/white" />
 
     <Button
-        android:id="@+id/boton_Iniciar"
+        android:id="@+id/boton_inciar"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_gravity="center_horizontal|bottom"
-        android:background="#9C27B0"
-        android:backgroundTint="#3F51B5"
+        android:textColor="@android:color/white"
+        android:layout_height="81dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:backgroundTint="#070707"
         android:text="Iniciar" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="405dp"
-        android:layout_height="318dp"
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="395dp"
         android:layout_gravity="center"
-        app:srcCompat="@mipmap/humedal4_foreground" />
+        app:srcCompat="@drawable/_994653" />
 
 </FrameLayout>

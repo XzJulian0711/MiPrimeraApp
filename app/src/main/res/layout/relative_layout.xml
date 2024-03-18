@@ -3,87 +3,81 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4CAF50"
-    android:backgroundTint="#03A9F4">
+    android:background="@drawable/bg_color">
 
-    <EditText
-        android:id="@+id/input_nombre"
-        android:layout_width="180dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginRight="48dp"
-        android:ems="10"
-        android:hint="Nombres"
-        android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/editTextFirstName"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombres"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"/>
 
-    <EditText
-        android:id="@+id/input_apellido"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/input_nombre"
-        android:ems="10"
-        android:hint="Apellidos"
-        android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/editTextLastName"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Apellidos"
+            android:layout_below="@id/editTextFirstName"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"/>
 
-    <TextView
-        android:id="@+id/texto_edad"
-        android:layout_width="130dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/input_apellido"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:paddingTop="16dp"
-        android:paddingBottom="8dp"
-        android:text="Edad"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/editTextDateOfBirth"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha de Nacimiento (dd/mm/yyyy)"
+            android:layout_below="@id/editTextLastName"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"/>
 
-    <Spinner
-        android:id="@+id/spinner_Edad"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/texto_edad"
-        android:layout_alignParentLeft="true"
-        android:entries="@android:array/emailAddressTypes" />
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo Electrónico"
+            android:layout_below="@id/editTextDateOfBirth"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:inputType="textEmailAddress"/>
 
-    <TextView
-        android:id="@+id/texto_fechaNacimiento"
-        android:layout_width="173dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/input_apellido"
-        android:layout_alignLeft="@+id/input_apellido"
-        android:layout_marginLeft="-8dp"
-        android:paddingTop="16dp"
-        android:paddingBottom="8dp"
-        android:text="Fecha de nacimiento"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:layout_below="@id/editTextEmail"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:inputType="textPassword"/>
 
-    <Spinner
-        android:id="@+id/spinner_Fecha_Nacimiento"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/texto_fechaNacimiento"
-        android:layout_alignStart="@+id/texto_fechaNacimiento"
-        android:layout_alignLeft="@+id/texto_fechaNacimiento"
-        android:layout_alignParentRight="true"
-        android:entries="@android:array/organizationTypes" />
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextPassword"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="#090909"
+            android:text="Registrar" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="match_parent"
-        android:layout_height="247dp"
-        android:layout_alignTop="@+id/texto_fechaNacimiento"
-        android:layout_marginTop="97dp"
-        app:srcCompat="@drawable/_04728" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="292dp"
+            android:layout_below="@+id/buttonRegister"
+            android:layout_marginTop="27dp"
+            app:srcCompat="@drawable/_04728" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="match_parent"
-        android:layout_height="368dp"
-        android:layout_below="@+id/imageView2"
-        android:layout_marginTop="30dp"
-        app:srcCompat="@drawable/_763552_2510990" />
-
-</RelativeLayout>
+    </RelativeLayout>

@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">WetlandArea</string>
+    <string name="app_name">Wetland Area</string>
     <string name="txtBienvenida">Welcome</string>
     <string name="Bienvenidadtxt">" Welcome to wetland area"</string>
+    <string name="boton_Registrarse">" Register"</string>
+    <string name="boton_iniciar_sesion">Log in</string>
+    <string name="input_nombre">Names</string>
+    <string name="input_apellido">" Surnames"</string>
+    <string name="texto_edad">Age</string>
+    <string name="texto_fechaNacimiento">" Birthdate"</string>
+    <string name="text_InicioSesion">Ready Log In!</string>
+    <string name="Boton.Continuar">Continue</string>
+    <string name="texto_conectar">Login</string>
+    <string name="input_usuario">Mail</string>
+    <string name="input_contrasena">" Password"</string>
+    <string name="boton_iniciarsesion">Log in</string>
+    <string name="txt.Olvidar">Did you forget your password?</string>
+    <string name="txt.Continuar2">Continue</string>
+    <string name="boton_inciar">Start</string>
 </resources>

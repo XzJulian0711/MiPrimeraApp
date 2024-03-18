@@ -1,47 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/txt.Olvidar"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
-    android:backgroundTint="#8BC34A"
+    android:background="@drawable/bg_color"
     android:orientation="vertical">
 
     <TextView
         android:id="@+id/texto_conectar"
-        android:gravity="center"
+        android:textColor="@android:color/white"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_gravity="center_horizontal"
         android:layout_weight="1"
+        android:gravity="center"
         android:text="Inicio de sesion"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <EditText
         android:id="@+id/input_usuario"
-        android:layout_width="match_parent"
+        android:layout_width="310dp"
         android:layout_height="0dp"
-        android:layout_gravity="center_horizontal"
+        android:layout_gravity="center"
         android:layout_weight="1"
-        android:hint="Correo" />
+        android:hint="Correo"
+        android:textColor="@color/white" />
 
     <EditText
         android:id="@+id/input_contrasena"
-        android:layout_width="match_parent"
+        android:layout_width="310dp"
         android:layout_height="0dp"
-        android:layout_gravity="center_horizontal"
+        android:layout_gravity="center"
         android:layout_weight="1"
         android:ems="10"
         android:hint="Contraseña"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:textColor="@android:color/white" />
 
     <Button
-        android:id="@+id/boton_iniciar_sesion"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="match_parent"
+        android:id="@+id/boton_inciar_sesion"
+        android:layout_width="310dp"
         android:layout_height="0dp"
-        android:layout_gravity="center_horizontal"
+        android:layout_gravity="center"
         android:layout_weight="1"
-        android:background="@android:drawable/alert_dark_frame"
+        android:backgroundTint="#020202"
         android:text="Iniciar Sesion" />
 
     <TextView
@@ -54,4 +56,5 @@
         android:text="¿Olvidaste tu constraseña?"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#0E8AEE" />
+
 </LinearLayout>

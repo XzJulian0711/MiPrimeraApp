@@ -2,4 +2,19 @@
     <string name="app_name" translatable="false">ZonaHumedal</string>
     <string name="txtBienvenida">Bievenido</string>
     <string name="Bienvenidadtxt">Bienvenido a Zona Humedal</string>
+    <string name="boton_Registrarse">Registrarse</string>
+    <string name="boton_iniciar_sesion">Iniciar Sesion</string>
+    <string name="input_nombre">Nombres</string>
+    <string name="input_apellido">Apellidos</string>
+    <string name="texto_edad">Edad</string>
+    <string name="texto_fechaNacimiento">Fecha de nacimiento</string>
+    <string name="text_InicioSesion">¡Listo Inicia Sesion!</string>
+    <string name="Boton.Continuar">Continuar</string>
+    <string name="texto_conectar">Inicio de sesion</string>
+    <string name="input_usuario">Correo</string>
+    <string name="input_contrasena">Contraseña</string>
+    <string name="boton_iniciarsesion">Iniciar Sesion</string>
+    <string name="txt.Olvidar">¿Olvidaste tu contraseña?</string>
+    <string name="txt.Continuar2">Continuar</string>
+    <string name="boton_inciar">Iniciar</string>
 </resources>
