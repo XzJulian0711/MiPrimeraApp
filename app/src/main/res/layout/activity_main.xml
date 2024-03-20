@@ -17,16 +17,17 @@
         android:gravity="center"
         android:text="@string/Bienvenidadtxt"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:textColor="@color/white" />
+        android:textColor="@color/black" />
 
     <Button
         android:id="@+id/boton_inciar"
         android:layout_width="match_parent"
-        android:textColor="@android:color/white"
         android:layout_height="81dp"
         android:layout_gravity="bottom|center_horizontal"
         android:backgroundTint="#070707"
-        android:text="Iniciar" />
+        android:text="Iniciar"
+        android:onClick="linear_layout"
+        android:textColor="@android:color/white" />
 
     <ImageView
         android:id="@+id/imageView4"

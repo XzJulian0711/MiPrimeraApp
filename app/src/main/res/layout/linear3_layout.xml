@@ -2,58 +2,105 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/bg_color"
-    android:padding="16dp">
+    android:orientation="vertical"
+    android:padding="1dp">
 
     <TextView
-        android:id="@+id/textViewCountry"
-        android:textColor="@color/white"
+        android:id="@+id/textViewName"
         android:layout_width="match_parent"
-        android:layout_height="75dp"
-        android:text="País:"
-        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:textSize="1sp"
         android:textStyle="bold" />
 
-    <Spinner
-        android:id="@+id/spinnerCountry"
-        android:textColor="@color/white"
+    <EditText
+        android:id="@+id/editTextName"
         android:layout_width="match_parent"
-        android:layout_height="79dp"
-        android:layout_marginTop="8dp" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:backgroundTint="@color/black"
+        android:hint="Ingrese su nombre" />
 
-    <TextView
-        android:id="@+id/textViewCity"
-        android:textColor="@color/white"
-        android:layout_width="match_parent"
-        android:layout_height="87dp"
+    <CheckBox
+        android:id="@+id/checkBoxAgree"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
         android:layout_marginTop="16dp"
-        android:text="Ciudad:"
+        android:text="Estoy de acuerdo con los términos y condiciones"
+        android:textSize="8dp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/switchReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recordatorio"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="1dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupTimeOfDay"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonMorning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mañana"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButtonAfternoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Tarde"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Fecha de reserva y hora:"
         android:textSize="18sp"
         android:textStyle="bold" />
 
-    <Spinner
-        android:id="@+id/spinnerCity"
-        android:textColor="@color/white"
-        android:layout_width="match_parent"
-        android:layout_height="72dp"
-        android:layout_marginTop="8dp" />
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="335dp"
+        android:layout_height="233dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:calendarViewShown="false"
+        android:spinnersShown="true" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="338dp"
+        android:layout_height="351dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp" />
 
     <Button
-        android:id="@+id/buttonCheckHemidity"
+        android:id="@+id/buttonSubmit"
         android:layout_width="match_parent"
-        android:layout_height="81dp"
-        android:layout_marginTop="24dp"
-        android:backgroundTint="#090909"
-        android:onClick="OnclickConsultarHumedad"
-        android:text="Consultar Humedad" />
-
-    <TextView
-        android:id="@+id/textViewHumidity"
-        android:layout_width="match_parent"
-        android:layout_height="63dp"
-        android:layout_marginTop="24dp"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:layout_height="39dp"
+        android:onClick="linear3_layout"
+        android:layout_marginTop="1dp"
+        android:backgroundTint="@color/black"
+        android:text="Enviar"
+        android:textColor="@color/white" />
 
 </LinearLayout>
+
+

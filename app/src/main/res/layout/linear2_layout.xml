@@ -40,11 +40,13 @@
     <Button
         android:id="@+id/boton_inciar_sesion"
         android:layout_width="310dp"
+        android:onClick="linear2_layout"
         android:layout_height="0dp"
         android:layout_gravity="center"
         android:layout_weight="1"
         android:backgroundTint="#020202"
-        android:text="Iniciar Sesion" />
+        android:text="Iniciar Sesion"
+        android:textColor="@color/white" />
 
     <TextView
         android:id="@+id/texto_olvidaste_contrasena"

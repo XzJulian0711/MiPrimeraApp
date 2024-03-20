@@ -63,8 +63,10 @@
 
         <Button
             android:id="@+id/buttonRegister"
+            android:textColor="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Relative_layout"
             android:layout_below="@id/editTextPassword"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
